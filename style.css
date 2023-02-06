@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    /*justify-content: end;*/
+}
+#ls {
+    /*font: 34px black;*/
+}
+#hLeft{
+    /*display:flex;*/
+    
+justify-content: flex-start;
+}
+
+#hRight{
+    /*display: flex;*/
+    justify-content: flex-end;
+}
+.top {
+    display:flex;
+   justify-content: center ;
+}
+.topStatement {
+    flex-direction: column;
+    /*align-items: center;*/
+}
+
+.photos {
+    display: flex;
+    justify-content: space-around;
+}
+#Bruce {
+    display: flex;
+   justify-content: flex-end; 
+}
+
+.tacos{
+    display: flex;
+}    
+
+.action {
+    display: column;
+}
+
+#tacoButton{
+    /*display: flex;*/
+    justify-content: space-between ;
+}

@@ -1,19 +1,25 @@
+.page{
+    margin-left :8%;
+    margin-right: 8%;
+}
+.btn{
+    background-color: fuchsia;
+    border-radius: 18%;
+    color: white;
+    border-color: white;
+
+}
+.blueBox{
+    background-color: rgb(189, 169, 208);
+}
 .header {
     display: flex;
-    /*justify-content: end;*/
-}
-#ls {
-    /*font: 34px black;*/
-}
-#hLeft{
-    /*display:flex;*/
-    
-justify-content: flex-start;
+    margin-bottom: 5%;
 }
 
 #hRight{
-    /*display: flex;*/
-    justify-content: flex-end;
+    margin-top: auto;
+    margin-left: 10px;
 }
 .top {
     display:flex;
@@ -21,20 +27,37 @@ justify-content: flex-start;
 }
 .topStatement {
     flex-direction: column;
-    /*align-items: center;*/
+    
 }
-
 .photos {
     display: flex;
     justify-content: space-around;
+    margin-top: 8%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+.img{
+    width: 150px;
+    }
+.quote{
+        margin-left: 20%;
+    margin-right: 20%;
+    padding-top :4%;
+    padding-bottom: 1%;
+}
+#qt{
+    background-color: rgb(184, 244, 238);
 }
 #Bruce {
     display: flex;
    justify-content: flex-end; 
+   font-weight: bolder;
 }
 
 .tacos{
     display: flex;
+    background-color: darkkhaki;
+    margin-top: 8%;
 }    
 
 .action {
@@ -42,6 +65,17 @@ justify-content: flex-start;
 }
 
 #tacoButton{
-    /*display: flex;*/
-    justify-content: space-between ;
+    
+margin-top: auto;
+margin-left: 4%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(189, 169, 208);
+    font-size: 12px;
+    color:white;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
